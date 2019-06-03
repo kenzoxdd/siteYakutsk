@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Adventure Time</title>
+	<style type="text/css">
+	</style>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-image: url('at.jpg'); background-size: cover;">
+	<div class="game">
+		<h1 class="text-center" style="font-family: fantasy;">POINTS</h1>
+		<h1 class="points text-center" style="font-family: fantasy ;">0</h1>
+		<h2 class="text-center" style="font-family: monospace;">Сделай масштаб экрана 67%, прежде чем играть</h2>
+		<h3 class="text-center" style="font-family: monospace;">Чтобы выиграть, накликай себе не менее 20 очков</h3>
+
+		<div class="container">
+			<div style="font-size: 30px; color:black; font-family:serif;"> GAME ENDS IN <span id="time" class="timel">00:20</span></div>
+			<div class="row">
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png" alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png" alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+				<div class="col-3 border shadow" style="height: 300px; background: #e8e5e5">
+					<img class="finn w-75" src="finn.png"  alt="" style="display: none">
+					<img class="evil w-100" src="evil.png" alt="" style="display: none">
+					<img class="bimo w-100" src="bimo.png" alt="" style="display: none">
+					<img class="dnm w-75" src="dynamite.png" alt="" style="display: none">
+					<img class="tim w-75" src="tim.png" alt="" style="display: none">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+	let score = 0
+	let bimo = document.querySelectorAll(".bimo")
+	let finn = document.querySelectorAll(".finn")
+	let evil = document.querySelectorAll(".evil")
+	let dnm = document.querySelectorAll(".dnm")
+	let tim = document.querySelectorAll(".tim")
+
+	let interv = function(){
+		let rand = Math.random()*12;
+		let round = Math.round(rand);
+		finn[round].style.display = "block";
+}
+	setInterval(interv,1500)
+
+	let time = function(){
+	for(let index1 = 0; index1<12; index1 = index1 + 1){//цикл
+		finn[index1].style.display = "none";
+		finn[index1].onclick = function(){
+			finn[index1].style.display = "none";
+			score = score + 1
+			document.querySelector(".points").innerHTML = score;
+		}
+	}
+}
+	setInterval(time,2000)
+
+	let interv1 = function(){
+		let rand2 = Math.random()*12;
+		let round2 = Math.round(rand2);
+		evil[round2].style.display = "block";
+}
+	setInterval(interv1,2000)
+
+	let time1 = function(){
+	for(let index2 = 0; index2<12; index2 = index2 + 1){//цикл
+		evil[index2].style.display = "none";
+		evil[index2].onclick = function(){
+			evil[index2].style.display = "none";
+			score = score - 10
+			document.querySelector(".points").innerHTML = score;
+		}
+	}
+}
+	setInterval(time1,2500)
+	let interv2 = function(){
+		let rand3 = Math.random()*12;
+		let round3 = Math.round(rand3);
+		bimo[round3].style.display = "block";
+}
+	setInterval(interv2,2000)
+	let other = function(){
+	for(let index3 = 0; index3<12; index3 = index3 + 1){
+			bimo[index3].style.display = "none"
+			bimo[index3].onclick = function(){
+			bimo[index3].style.display = "none";
+			score = score + 2
+			document.querySelector(".points").innerHTML = score;
+			}
+		}
+	}
+	setInterval(other,3000)
+
+	function startTimer(duration, display) {
+    let timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+		window.onload = function () {
+    		var fiveMinutes = 20 * 1,
+       		display = document.querySelector('#time');
+    		startTimer(fiveMinutes, display);
+};
+
+		let interv3 = function(){
+		let rand4 = Math.random()*12;
+		let round4 = Math.round(rand4);
+		dnm[round4].style.display = "block";
+}
+		setInterval(interv3,3000)
+		let time3 = function(){
+				for(let index4 = 0; index4<12; index4 = index4 + 1){//цикл
+					dnm[index4].style.display = "none";
+					dnm[index4].onclick = function(){
+					dnm[index4].style.display = "none";
+					score = score - 5
+					document.querySelector(".points").innerHTML = score;
+				}
+			}
+		}
+		setInterval(time3,4000)
+
+	let interv4 = function(){
+		let rand5 = Math.random()*12;
+		let round5 = Math.round(rand5);
+		tim[round5].style.display = "block";
+	}
+	setInterval(interv4,3000)
+
+	let time4 = function(){
+	for(let index5 = 0; index5<12; index5 = index5 + 1){//цикл
+		tim[index5].style.display = "none";
+		tim[index5].onclick = function(){
+			tim[index5].style.display = "none";
+			score = score + 5
+			document.querySelector(".points").innerHTML = score;
+		}
+	}
+}
+	setInterval(time4,2000)
+
+
+	let int = function(){
+		if (score<20) {//условие
+		alert("Лузер, ты проиграл!")
+		} 
+		else {
+			alert("Поздравляю, ты выиграл!")
+		}
+	}
+	setTimeout(int,22000)
+	</script>
+</body>
+</html>
